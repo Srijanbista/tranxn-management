@@ -3,7 +3,7 @@ import * as ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
 import Dashboard from "./routes/Dashboard";
-import LoginForm from "./components/LoginForm";
+import Login from "./routes/Login";
 
 const router = createBrowserRouter([
   {
@@ -12,7 +12,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/login",
-    element: <LoginForm />,
+    element: <Login />,
   },
 ]);
 
